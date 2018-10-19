@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Synergy</title>
+	<!-- Animate CSS-->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Font Awesome CSS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- Bootstrap Reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fancybox CSS -->	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css" />
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6 d-flex justify-content-start">
+					<div class="header-logo">
+						<a href="index.html">
+							<img src="img/Logo.png" class="logo" alt="synergy lectorium">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 d-flex justify-content-md-end justify-content-start">
+					<div class="contacts">
+						<div class="contacts__wrap d-flex justify-content-between">
+							<a href="tel:+78001001746" class="contacts__telephone">
+								<span class="contacts__logo">
+									<img src="img/phone.png" class="contacts__logo-phone" alt="phone">
+								</span>
+								8-800-100-17-46
+							</a>
+							<a href="mail:Lectorium@synergy.ru" class="contacts__mail">
+								<span class="contacts__logo">
+									<img src="img/mail.png" class="contacts__logo-mail" alt="mail">
+								</span>
+								Lectorium@Synergy.ru
+							</a>
+						</div>
+						<a href="https://yandex.ru/maps/?um=constructor%3A2e97b6dcfa4cdb64f1384ca11a68f46c291e3e14a9215ad3d782f690dcc9cadb&source=constructorLink" target="_blank" class="contacts__adress">
+							<span class="contacts__logo">
+								<img src="img/metro.png" class="contacts__logo-mail" alt="metro">
+								<span class="contacts__metro">
+									Семеновская
+								</span>
+							</span>
+							<p class="contacts__text">
+								Москва, Измайловский Вал, дом 2, корпус 1
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-lg-6">
+					<div class="offer">
+						<div class="ad">
+							<div class="ad__element d-flex align-items-center">
+								<span class="ad__date">
+									10
+								</span>
+								<div class="ad__wrap d-flex ">
+									<span class="ad__month">
+										ноября
+									</span>
+									<span class="ad__time">
+										в 19:00
+									</span>
+								</div>
+							</div>
+							<p class="ad__text">
+								Бесплатная лекция <br> и онлайн-трансляция
+							</p>
+						</div>
+						<div class="title-wrap">
+							<h1 class="main-title">
+								Бхригу йога
+							</h1>
+							<p class="main-text">
+								Вдохновение <br> на перемены
+							</p>
+						</div>
+						<div class="btns-wrap d-flex justify-content-around">
+							<a data-fancybox href="https://www.youtube.com/watch?v=H3zNUuhYinc" class="video-button">
+								<img src="img/play-btn.png" alt="play">
+							</a>
+							<div class="btn-wrap btn-ghost">
+								<a href="#form-wrap" class="take-btn modalbox ">
+									Записаться
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex justify-content-end">
+					<div class="form-wrap" id="form-wrap">
+						<div class="form text-center">
+							<h3 class="form__title">
+								Записаться
+							</h3>
+							<p class="form__text">
+								на практическую лекцию
+							</p>
+							<div class="form-item">
+						        <input type="text" name="name" required placeholder="Введите ваше имя"  class="form-element">
+						        <input type="text" name="tel" required placeholder="Введите ваш телефон"  class="form-element">
+						        <input type="text" name="mail" required placeholder="Введите ваш email" class="form-element">
+							</div>
+							<div class="button-wrap" id="button-wrap" >
+								<p class="live-text">
+									Живое участие
+								</p>
+								<p class="online-text">
+									Участие онлайн
+								</p>
+							</div>
+							<button class="live-online text-left">
+								<i class="fas fa-graduation-cap"></i>
+							</button>
+							<div class="checkbox-wrap d-flex justify-content-center">
+								<label>
+									<input type="checkbox" hidden checked class="order-checkbox" id="cb1">
+									<span></span>
+								</label>
+								<label class="label-text" for="cb1">
+									Согласен получать новости <br> о ЗВЕЗДНЫХ лекциях и курсах
+								</label>
+							</div>
+							<button class="send" >
+								Отправить заявку
+							</button>
+							<p class="limit-text">
+								Количество мест ограничено: 200
+							</p>
+						</div>
+						<div class="socials-wrap">
+							<p class="socials-text">
+								рекомендовать друзьям
+							</p>
+							<a href="#" target="_link" class="social-link">
+								<img src="img/vk.png" alt="vk">
+							</a>
+							<a href="#" target="_link" class="social-link">
+								<img src="img/facebook.png" alt="facebook">
+							</a>
+							<a href="#" target="_link" class="social-link">
+								<img src="img/GOOGL.PNG" alt="google">
+							</a>
+							<a href="#" target="_link" class="social-link">
+								<img src="img/twitter.png" alt="twiter">
+							</a>
+							<a href="#" target="_link" class="social-link">
+								<img src="img/odnok.png" alt="odnoklassniki">
+							</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</header>
+	<section class="know">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 no-gutters">
+					<h2 class="know-title">
+						Что вы узнаете <br> на лекции?
+					</h2>
+				</div>
+				<div class="col-lg-4 no-gutters">
+					<div class="know__item  know__item_00">
+						
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_01">
+						<h2 class="know__item-title">
+							01
+						</h2>
+						<p class="know__item-text">
+							Что такое Бхригу йога, и как она поможет мне создать жизнь моей мечты?
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_02">
+						<h2 class="know__item-title">
+							02
+						</h2>
+						<p class="know__item-text">
+							5 техник, вдохновляющие на на перемены, от вице-президента Федерации Йоги Индии
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_03">
+						<h2 class="know__item-title">
+							03
+						</h2>
+						<p class="know__item-text">
+							Почему медитация — это путь к вдохновению, путешествие к новым горизонтам
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_04">
+						<h2 class="know__item-title">
+							04
+						</h2>
+						<p class="know__item-text">
+							Методы Бхригу йоги как особый инструмент внутренней работы над телом и умом
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_05">
+						<h2 class="know__item-title">
+							05
+						</h2>
+						<p class="know__item-text">
+							Особые методы концентрации и релаксации
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 no-gutters">
+					<div class="know__item know__item_06">
+						<h2 class="know__item-title">
+							06
+						</h2>
+						<p class="know__item-text">
+							Причины потери вдохновения
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="take-wrap d-flex">
+						<a href="#form-wrap" class="take-btn modalbox">
+							Принять участие
+						</a>
+						<p class="limit-text-btn">
+							Количество мест ограничено: 200
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lecture-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					
+				</div>
+				<div class="col-lg-6">
+					<div class="lecture">
+						<h2 class="lecture__title">
+							Лекция для вас, <br>если вы: 
+						</h2>
+						<ul class="lecture__element">
+							<li class="lecture__item d-flex ">
+								<img src="img/yoga.png" class="lecture__img" alt="yoga">
+								<p class="lecture__item-text">
+									Увлекаетесь  <br>йогой
+								</p>
+							</li>
+						</ul>
+						<ul class="lecture__element">
+							<li class="lecture__item d-flex ">
+								<img src="img/hand.png" class="lecture__img" alt="hand">
+								<p class="lecture__item-text">
+									Интересуетесь культурно-философским наследием Индии
+
+								</p>
+							</li>
+						</ul>
+						<ul class="lecture__element">
+							<li class="lecture__item d-flex ">
+								<img src="img/lotus.png" class="lecture__img" alt="lotus">
+								<p class="lecture__item-text">
+									Хотите узнать новые ринципы работы с телом и умом
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="intensiv">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="img/indus.png" class="indus-back" alt="indus">
+					<div class="intensiv__wrap">
+						<h2 class="intensive__title">
+							Трехдневный интенсив
+						</h2>
+						<p class="intensive__text">
+							Лечение и профилактика психосоматических и эндокринных заболеваний методами Бхригу йоги
+						</p>
+						<p class="intensive__discription">
+							Вы познакомитесь с особенностями методов и  получите пошаговый алгоритм достижения физического и психического благополучия.
+						</p>
+						
+					</div>
+					<div class="scedule d-flex">
+						<div class="scedule__item d-flex align-items-center">
+							<span class="scedule__date">
+								11
+							</span>
+							<div class="scedule__wrap d-flex">
+								<span class="scedule__month">
+									ноября
+								</span>
+								<span class="scedule__time">
+									19:00-21:00
+								</span>
+							</div>
+						</div>
+						<div class="scedule__item d-flex align-items-center">
+							<span class="scedule__date">
+								12
+							</span>
+							<div class="scedule__wrap d-flex">
+								<span class="scedule__month">
+									ноября
+								</span>
+								<span class="scedule__time">
+									11:00-17:30
+								</span>
+							</div>
+						</div>
+						<div class="scedule__item d-flex align-items-center">
+							<span class="scedule__date">
+								13
+							</span>
+							<div class="scedule__wrap d-flex">
+								<span class="scedule__month">
+									ноября
+								</span>
+								<span class="scedule__time">
+									11:00-17:30
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="more d-flex">
+						<div class="more-wrap">
+							<a href="#form-wrap" class="more-btn modalbox">
+								Узнать больше
+							</a>
+						</div>
+						<p class="more-text">
+							Вы можете приобрести билет на 1, 2 или 3 дня <br>
+							Запись и дополнительная информация <br>
+							по телефону <a href="tel:+79997683638" class="more-tel">+7 999 768 36 38</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-sm-6 text-center text-md-left">
+					<p class="copyright">
+						© 2016 Synergy Lectorium
+					</p>
+				</div>
+				<div class="col-sm-6 text-center text-md-right">
+					<a href="#" class="confid">
+						Политика конфиденциальности
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.js"></script>
+<script>
+$(document).ready(function() {
+   	$(".modalbox").fancybox();
+});	
+</script>
+</body>
+</html>
